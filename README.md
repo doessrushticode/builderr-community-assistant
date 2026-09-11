@@ -44,8 +44,7 @@ It avoids engagement when a response would be irrelevant, promotional, spam-like
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/builderr-community-assistant.git](https://github.com/YOUR_GITHUB_USERNAME/builderr-community-assistant.git)
-cd builderr-community-assistant
+git clone https://github.com/doessrushticode/builderr-community-assistant.git
 ```
 
 ### 2. Install dependencies
