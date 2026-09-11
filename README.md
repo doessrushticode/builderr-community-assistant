@@ -16,7 +16,7 @@ The tool never publishes content automatically. Every suggested response require
 - Explains the reasoning behind the recommendation
 - Produces a tailored draft only when responding would add genuine value
 - Supports batch analysis of all eight posts
-- Exports the required results as `example_output.csv`
+- Exports results as `results/example_output.csv`
 
 ## Decision framework
 
@@ -95,7 +95,7 @@ post_id, should_respond, why, draft_response
 - This prototype generates drafts only; it has no capability to publish or interact with external community platforms.
 - Human review is required before using any suggested response.
 - LLM output can vary and may be overly conservative or insufficiently aware of community nuance.
-- The submitted CSV is a reviewed final output, because community engagement is brand-sensitive and should not rely on an unreviewed automated decision.
+- The submitted CSV is a reviewed final output because community engagement is brand-sensitive and should not rely on an unreviewed automated decision.
 
 ## Future improvements
 
