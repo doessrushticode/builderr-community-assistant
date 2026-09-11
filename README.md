@@ -44,7 +44,8 @@ It avoids engagement when a response would be irrelevant, promotional, spam-like
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/doessrushticode/builderr-community-assistant.git
+git clone [https://github.com/doessrushticode/builderr-community-assistant.git](https://github.com/doessrushticode/builderr-community-assistant.git)
+cd builderr-community-assistant
 ```
 
 ### 2. Install dependencies
@@ -55,13 +56,13 @@ pip install -r requirements.txt
 
 ### 3. Create a `.env` file
 
-Create a file named `.env` in the project root:
+Create a file named `.env` in the project root and add your Gemini API key:
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-Do not commit this file. It is already excluded through `.gitignore`.
+Do not commit this file. It is excluded through `.gitignore`.
 
 ### 4. Run the application
 
@@ -69,17 +70,21 @@ Do not commit this file. It is already excluded through `.gitignore`.
 streamlit run app.py
 ```
 
-Open the local address shown in the terminal.
+Open the local address shown in the terminal, usually:
+
+```text
+http://localhost:8501
+```
 
 ## Results
 
-The final reviewed outputs for all eight sample posts are available here:
+The final reviewed outputs for all eight sample posts are in:
 
 ```text
 results/example_output.csv
 ```
 
-The results file uses the required schema:
+The results file uses this schema:
 
 ```text
 post_id, should_respond, why, draft_response
